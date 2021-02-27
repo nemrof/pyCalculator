@@ -10,3 +10,7 @@ Calculator build with Tkinter module in python.
 * division
 * exponentiation
 * 2nd, 3rd root
+
+## TODO:
+
+* history - another screen with five recent operations
