@@ -11,6 +11,6 @@ Calculator build with Tkinter module in python.
 * exponentiation
 * 2nd, 3rd root
 
-## TODO:
+## TODO
 
 * history - another screen with five recent operations
