@@ -15,17 +15,6 @@ class Calculator:
         dark_blue = '#61a5c2'
         cus_blue = '#99e4ff'
         an_blue = '#d3d5d9'
-        #an_blue = "#94bbc8"
-        #br_red = '#B7094C'
-        '''
-        # define color schemes
-        light_blue = '#edf2fb'
-        med_blue = '#a9d6e5'
-        dark_blue = '#61a5c2'
-        cus_blue = '#2a6f97'
-        an_blue = '#bee0eb'
-        # an_blue = "#94bbc8"
-        '''
 
         # Text widget -- output
         self.screen = Text(master, background=light_blue, font=('Helvetica', 32), height=1, state='disabled',
@@ -79,8 +68,8 @@ class Calculator:
         buttons[18].grid(row=4, column=4, rowspan=2, sticky=W+E+N+S)
         buttons[19].grid(row=1, column=0, rowspan=1, sticky=W+E+N+S)
         buttons[20].grid(row=1, column=1, rowspan=1, sticky=W+E+N+S)
-        buttons[21].grid(row=1, column=2, rowspan=1, sticky=W + E + N + S)
-        buttons[22].grid(row=1, column=3, rowspan=1, sticky=W + E + N + S)
+        buttons[21].grid(row=1, column=2, rowspan=1, sticky=W+E+N+S)
+        buttons[22].grid(row=1, column=3, rowspan=1, sticky=W+E+N+S)
 
 
     def createButton(self, val, write=True, width=5, bg='#F0eff4'):
